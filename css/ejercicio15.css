@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 15px;
+
+    background: black;
+    height: 100vh; 
+}
+
+#lista{
+    top: 30%;
+    left: 30%;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#cabecera{
+    color: white;
+    position: relative;
+    font-size: 300%;
+    left: 30%;
+}
+
+#B1{
+    left: 30%;
+    top: 50%;
+}
+
+#cuerpo{
+    position: relative;
+    top: 05%;
+    left: 30%;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}

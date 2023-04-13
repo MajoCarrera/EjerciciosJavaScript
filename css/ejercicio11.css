@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(100deg, #677ae2, #6ad3c5);
+    height: 657px;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    background: rgb(201, 215, 255);
+    border-radius: 5px;
+}
+
+h3{
+    color: rgb(129, 20, 20);
+    position: center;
+    top: 0%;
+    left: 30%;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}

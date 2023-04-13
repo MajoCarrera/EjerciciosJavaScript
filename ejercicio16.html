@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <link href="css/ejercicio16.css" rel="stylesheet" >
+    <script src="js/ejercicio16.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form>
+        Selecciona que n&uacute;mero de tabla
+        <select name="opTabla" id="opTabla">
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select>
+
+        <p><input type="button" value="Ejecutar"
+                    onclick="muestra(opTabla.value, tabla, document.getElementById('contenido'));"/>
+                    <br/>
+        </p>
+
+        <div id="contenido" style="visibility:hidden">
+            <table id="tabla" border="2" >
+                <thead>
+                    <th>Operaci&oacute;n</th>
+                    <th>Resultado</th>
+                    <th>Calificacion</th>
+                </thead>
+            </table>
+            <br><br>
+            <label id="num" style="visibility: hidden;">Numero de aciertos =</label>
+            <br>
+            <br>
+            <input type="button" value="Calificar Examen" onclick="califica(opTabla.value, tabla);"/>
+        </div>
+    </form>
+
+    <a href="index.html" class="btn-1">Index</a>
+</body>
+</html>

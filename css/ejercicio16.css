@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(25deg, blue, white);
+    height: 100vh; 
+}
+
+#tabla{
+    background-color: white;
+}
+
+#num{
+    font-size: 100%;
+    font-weight: bolder;
+    color: black;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}

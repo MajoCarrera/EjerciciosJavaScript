@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(150deg, #f17fde, #47bfd4);
+    height: 657px;
+    text-align: center;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}

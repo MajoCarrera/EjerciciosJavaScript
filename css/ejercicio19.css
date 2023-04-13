@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.ultimoResultado {
+    color: blanchedalmond;
+    padding: 3px;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}

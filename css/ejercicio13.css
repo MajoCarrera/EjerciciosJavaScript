@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(25deg, blue, white);
+    height: 100vh; 
+}
+
+
+#contenidos_1{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+#contenidos_2{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+#contenidos_3{
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+h1{
+    color: black;
+    position: relative;
+    top: 0%;
+    left: 30%;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+#pie{
+    color: black;
+    position: relative;
+}
+
+.btn-1 {
+    text-decoration-line: none;
+    padding: 10px;
+    border: 1px solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
